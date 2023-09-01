@@ -1,210 +1,60 @@
-Contribution: 2012-12-26 20:00
+# React Redux
 
-Contribution: 2012-12-26 20:01
+Official React bindings for [Redux](https://github.com/reduxjs/redux).  
+Performant and flexible.
 
-Contribution: 2012-12-26 20:02
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/reduxjs/react-redux/test.yml?style=flat-square) [![npm version](https://img.shields.io/npm/v/react-redux.svg?style=flat-square)](https://www.npmjs.com/package/react-redux)
+[![npm downloads](https://img.shields.io/npm/dm/react-redux.svg?style=flat-square)](https://www.npmjs.com/package/react-redux)
+[![#redux channel on Discord](https://img.shields.io/badge/discord-redux@reactiflux-61DAFB.svg?style=flat-square)](http://www.reactiflux.com)
 
-Contribution: 2012-12-26 20:03
+## Installation
 
-Contribution: 2012-12-31 20:00
+### Using Create React App
 
-Contribution: 2012-12-31 20:01
+The recommended way to start new apps with React Redux is by using the [official Redux+JS/TS templates](https://github.com/reduxjs/cra-template-redux) for [Create React App](https://github.com/facebook/create-react-app), which takes advantage of [Redux Toolkit](https://redux-toolkit.js.org/).
 
-Contribution: 2012-12-31 20:02
+```sh
+# JS
+npx create-react-app my-app --template redux
 
-Contribution: 2012-12-31 20:03
+# TS
+npx create-react-app my-app --template redux-typescript
+```
 
-Contribution: 2012-12-31 20:04
+### An Existing React App
 
-Contribution: 2013-01-01 20:00
+React Redux 8.0 requires **React 16.8.3 or later** (or React Native 0.59 or later).
 
-Contribution: 2013-01-03 20:00
+To use React Redux with your React app, install it as a dependency:
 
-Contribution: 2013-01-04 20:00
+```bash
+# If you use npm:
+npm install react-redux
 
-Contribution: 2013-01-04 20:01
+# Or if you use Yarn:
+yarn add react-redux
+```
 
-Contribution: 2013-01-10 20:00
+You'll also need to [install Redux](https://redux.js.org/introduction/installation) and [set up a Redux store](https://redux.js.org/recipes/configuring-your-store/) in your app.
 
-Contribution: 2013-01-10 20:01
+This assumes that you’re using [npm](http://npmjs.com/) package manager
+with a module bundler like [Webpack](https://webpack.js.org/) or
+[Browserify](http://browserify.org/) to consume [CommonJS
+modules](https://webpack.js.org/api/module-methods/#commonjs).
 
-Contribution: 2013-01-10 20:02
+If you don’t yet use [npm](http://npmjs.com/) or a modern module bundler, and would rather prefer a single-file [UMD](https://github.com/umdjs/umd) build that makes `ReactRedux` available as a global object, you can grab a pre-built version from [cdnjs](https://cdnjs.com/libraries/react-redux). We _don’t_ recommend this approach for any serious application, as most of the libraries complementary to Redux are only available on [npm](http://npmjs.com/).
 
-Contribution: 2013-01-16 20:00
+## Documentation
 
-Contribution: 2013-01-17 20:00
+The React Redux docs are published at **https://react-redux.js.org** .
 
-Contribution: 2013-01-21 20:00
+## How Does It Work?
 
-Contribution: 2013-01-21 20:01
+The post [The History and Implementation of React-Redux](https://blog.isquaredsoftware.com/2018/11/react-redux-history-implementation/)
+explains what it does, how it works, and how the API and implementation have evolved over time.
 
-Contribution: 2013-01-21 20:02
+There's also a [Deep Dive into React-Redux](https://blog.isquaredsoftware.com/2019/06/presentation-react-redux-deep-dive/) talk that covers some of the same material at a higher level.
 
-Contribution: 2013-01-21 20:03
+## License
 
-Contribution: 2013-01-23 20:00
-
-Contribution: 2013-01-23 20:01
-
-Contribution: 2013-01-23 20:02
-
-Contribution: 2013-01-24 20:00
-
-Contribution: 2013-01-24 20:01
-
-Contribution: 2013-01-24 20:02
-
-Contribution: 2013-01-24 20:03
-
-Contribution: 2013-01-24 20:04
-
-Contribution: 2013-02-05 20:00
-
-Contribution: 2013-02-05 20:01
-
-Contribution: 2013-02-06 20:00
-
-Contribution: 2013-02-06 20:01
-
-Contribution: 2013-02-06 20:02
-
-Contribution: 2013-02-11 20:00
-
-Contribution: 2013-02-15 20:00
-
-Contribution: 2013-02-15 20:01
-
-Contribution: 2013-02-15 20:02
-
-Contribution: 2013-02-15 20:03
-
-Contribution: 2013-02-18 20:00
-
-Contribution: 2013-02-18 20:01
-
-Contribution: 2013-02-18 20:02
-
-Contribution: 2013-02-18 20:03
-
-Contribution: 2013-02-18 20:04
-
-Contribution: 2013-03-07 20:00
-
-Contribution: 2013-03-07 20:01
-
-Contribution: 2013-03-12 20:00
-
-Contribution: 2013-03-12 20:01
-
-Contribution: 2013-03-13 20:00
-
-Contribution: 2013-03-13 20:01
-
-Contribution: 2013-03-18 20:00
-
-Contribution: 2013-03-18 20:01
-
-Contribution: 2013-03-19 20:00
-
-Contribution: 2013-03-19 20:01
-
-Contribution: 2013-03-19 20:02
-
-Contribution: 2013-03-19 20:03
-
-Contribution: 2013-03-19 20:04
-
-Contribution: 2013-03-27 20:00
-
-Contribution: 2013-03-28 20:00
-
-Contribution: 2013-03-28 20:01
-
-Contribution: 2013-03-28 20:02
-
-Contribution: 2013-03-28 20:03
-
-Contribution: 2013-03-28 20:04
-
-Contribution: 2013-03-29 20:00
-
-Contribution: 2013-04-02 20:00
-
-Contribution: 2013-04-02 20:01
-
-Contribution: 2013-04-03 20:00
-
-Contribution: 2013-04-03 20:01
-
-Contribution: 2013-04-03 20:02
-
-Contribution: 2013-04-18 20:00
-
-Contribution: 2013-04-18 20:01
-
-Contribution: 2013-04-18 20:02
-
-Contribution: 2013-04-18 20:03
-
-Contribution: 2013-04-18 20:04
-
-Contribution: 2013-04-22 20:00
-
-Contribution: 2013-04-22 20:01
-
-Contribution: 2013-04-22 20:02
-
-Contribution: 2013-04-22 20:03
-
-Contribution: 2013-04-22 20:04
-
-Contribution: 2013-04-23 20:00
-
-Contribution: 2013-04-23 20:01
-
-Contribution: 2013-04-23 20:02
-
-Contribution: 2013-04-23 20:03
-
-Contribution: 2013-04-24 20:00
-
-Contribution: 2013-04-24 20:01
-
-Contribution: 2013-04-24 20:02
-
-Contribution: 2013-04-30 20:00
-
-Contribution: 2013-05-02 20:00
-
-Contribution: 2013-05-02 20:01
-
-Contribution: 2013-05-02 20:02
-
-Contribution: 2013-05-06 20:00
-
-Contribution: 2013-05-06 20:01
-
-Contribution: 2013-05-06 20:02
-
-Contribution: 2013-05-06 20:03
-
-Contribution: 2013-05-06 20:04
-
-Contribution: 2013-05-07 20:00
-
-Contribution: 2013-05-07 20:01
-
-Contribution: 2013-05-07 20:02
-
-Contribution: 2013-05-07 20:03
-
-Contribution: 2013-05-07 20:04
-
-Contribution: 2013-05-10 20:00
-
-Contribution: 2013-05-10 20:01
-
-Contribution: 2013-05-10 20:02
-
-Contribution: 2013-05-10 20:03
-
+[MIT](LICENSE.md)
